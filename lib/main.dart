@@ -1,8 +1,7 @@
-import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutterapp/app/screen/ContainerWidget.dart';
 import 'package:flutterapp/app/screen/FirstScreen.dart';
-
 
 void main() => runApp(MyFlutterApp());
 
@@ -19,10 +18,9 @@ class MyFlutterApp extends StatelessWidget {
           title: Text('My Toolbar'),
           backgroundColor: Colors.lightBlueAccent,
         ),
-        body: FirstScreen(),
+        body: ContainerWidget(),
       ),
     );
-
     return materialApp;
   }
 }
