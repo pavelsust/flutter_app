@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterapp/app/screen/ContainerWidget.dart';
 import 'package:flutterapp/app/screen/FirstScreen.dart';
+import 'package:flutterapp/app/screen/RowWidget.dart';
 
 void main() => runApp(MyFlutterApp());
 
@@ -14,11 +15,11 @@ class MyFlutterApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'My App',
       home: Scaffold(
-        appBar: AppBar(
+        appBar:AppBar (
           title: Text('My Toolbar'),
           backgroundColor: Colors.lightBlueAccent,
         ),
-        body: ContainerWidget(),
+        body: RowWidget(),
       ),
     );
     return materialApp;
