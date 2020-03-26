@@ -12,7 +12,7 @@ class ContainerWidget extends StatelessWidget {
         child: Text('Hello Material',
             textDirection: TextDirection.ltr,
             style: TextStyle(color: Colors.white, fontSize: 20 , fontFamily: 'Roboto' ,
-            fon: FontWeight.w700)),
+            fontWeight: FontWeight.w700)),
       ),
     );
     return myContainer;
