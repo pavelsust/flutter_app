@@ -1,8 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutterapp/app/screen/ContainerWidget.dart';
-import 'package:flutterapp/app/screen/FirstScreen.dart';
-import 'package:flutterapp/app/screen/RowWidget.dart';
 import 'package:flutterapp/app/screen/ShowListView.dart';
 
 void main() => runApp(MyFlutterApp());
