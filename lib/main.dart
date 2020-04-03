@@ -19,9 +19,121 @@ class MyFlutterApp extends StatelessWidget {
           title: Text('My Toolbar'),
           backgroundColor: Colors.lightBlueAccent,
         ),
-        body: RowWidget(),
+        body: getListView(),
       ),
     );
     return materialApp;
   }
+
+
+  Widget getListView(){
+    var listView = ListView(
+      children: <Widget>[
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        ),
+        ListTile(
+          leading: Icon(Icons.landscape),
+          title: Text('Title'),
+          subtitle: Text('Sub Title'),
+          trailing: Icon(Icons.wb_sunny),
+        )
+      ],
+    );
+    return listView;
+  }
+
 }
