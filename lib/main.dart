@@ -18,11 +18,15 @@ class MyFlutterApp extends StatelessWidget {
           backgroundColor: Colors.lightBlueAccent,
         ),
         body: ShowListView(),
+        floatingActionButton: FloatingActionButton(
+          onPressed: null,
+          child: Icon(Icons.add),
+          tooltip: 'Add One More Item',
+        ),
       ),
     );
     return materialApp;
   }
-
 
   Widget getListView(){
     var listView = ListView(
