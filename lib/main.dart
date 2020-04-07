@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutterapp/app/screen/ShowListView.dart';
 import 'package:flutterapp/app/state/MyTest.dart';
@@ -15,12 +14,13 @@ class MyFlutterApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'My App',
       home: Scaffold(
-        appBar:AppBar (
+        appBar: AppBar(
           title: Text('My Toolbar'),
           backgroundColor: Colors.lightBlueAccent,
         ),
         //body: ShowListView(),
-        body: FavouriteCity(),
+        //body: FavouriteCity(),
+        body: MyTest(),
         //body: MyTest(),
         floatingActionButton: FloatingActionButton(
           onPressed: null,
@@ -32,7 +32,7 @@ class MyFlutterApp extends StatelessWidget {
     return materialApp;
   }
 
-  Widget getListView(){
+  Widget getListView() {
     var listView = ListView(
       children: <Widget>[
         ListTile(
@@ -141,5 +141,4 @@ class MyFlutterApp extends StatelessWidget {
     );
     return listView;
   }
-
 }
