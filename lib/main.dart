@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterapp/app/calculator/MyCalculator.dart';
 import 'package:flutterapp/app/screen/ShowListView.dart';
 import 'package:flutterapp/app/state/MyTest.dart';
 import 'package:flutterapp/app/state/StateFullExmaple/FavouriteCity.dart';
@@ -20,7 +21,7 @@ class MyFlutterApp extends StatelessWidget {
         ),
         //body: ShowListView(),
         //body: FavouriteCity(),
-        body: MyTest(),
+        body: MyCalculator(),
         //body: MyTest(),
         floatingActionButton: FloatingActionButton(
           onPressed: null,
