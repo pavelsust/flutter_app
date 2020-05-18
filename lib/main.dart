@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutterapp/app/calculator/MyCalculator.dart';
-import 'package:flutterapp/app/screen/ShowListView.dart';
-import 'package:flutterapp/app/state/MyTest.dart';
-import 'package:flutterapp/app/state/StateFullExmaple/FavouriteCity.dart';
 
 void main() => runApp(MyFlutterApp());
 
@@ -14,10 +11,14 @@ class MyFlutterApp extends StatelessWidget {
     var materialApp = MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'My App',
+      theme: ThemeData(
+        brightness: Brightness.dark,
+        primaryColor: Colors.indigo,
+        accentColor: Colors.indigo
+      ),
       home: Scaffold(
         appBar: AppBar(
           title: Text('My Toolbar'),
-          backgroundColor: Colors.lightBlueAccent,
         ),
         //body: ShowListView(),
         //body: FavouriteCity(),

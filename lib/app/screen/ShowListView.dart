@@ -22,7 +22,7 @@ class ShowListView extends StatelessWidget {
 
   void showSnakebar(BuildContext context, var item) {
     var snackBar = SnackBar(
-      content: Text('item number ${item}'),
+      content: Text('item number $item'),
       action: SnackBarAction(
         label: 'Undo',
         onPressed: () {
