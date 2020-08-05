@@ -68,6 +68,7 @@ class _MyCalculator extends State<MyCalculator> {
               child: TextFormField(
                 controller: rateController,
                 keyboardType: TextInputType.number,
+                // ignore: missing_return
                 validator: (String value){
                   if(value.isEmpty){
                     return 'Please enter the Interest';
