@@ -74,15 +74,44 @@ class MainContent extends StatelessWidget {
                           children: <Widget>[
                             Expanded(
                               child: Container(
-                                color: Colors.black,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(5),
+                                  color: Color(0xFFFDD093),
+                                ),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: <Widget>[
+                                    Icon(Icons.local_offer, color: Colors.white),
+                                    Text(
+                                      'Classified',
+                                      style:
+                                      TextStyle(fontSize: 15, color: Colors.white),
+                                    )
+                                  ],
+                                ),
                               ),
+
                             ),
                             SizedBox(
                               height: 3,
                             ),
                             Expanded(
                               child: Container(
-                                color: Colors.purpleAccent,
+                                width:  double.infinity,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(5),
+                                  color: Color(0xFF2BD093),
+                                ),
+                                child: Column(
+                                  children: <Widget>[
+                                    Icon(Icons.local_offer, color: Colors.white),
+                                    Text(
+                                      'Classified',
+                                      style:
+                                      TextStyle(fontSize: 15, color: Colors.white),
+                                    )
+                                  ],
+                                ),
                               ),
                             )
                           ],
@@ -99,7 +128,10 @@ class MainContent extends StatelessWidget {
                           children: <Widget>[
                             Expanded(
                               child: Container(
-                                color: Colors.black,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(5),
+                                  color: Color(0xFFFC7B4D),
+                                ),
                               ),
                             ),
                             SizedBox(
@@ -107,7 +139,10 @@ class MainContent extends StatelessWidget {
                             ),
                             Expanded(
                               child: Container(
-                                color: Colors.purpleAccent,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(5),
+                                  color: Color(0xFF53CEDB),
+                                ),
                               ),
                             )
                           ],
