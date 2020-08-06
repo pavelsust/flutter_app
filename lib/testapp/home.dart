@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterapp/testapp/Dashboard.dart';
 import 'package:flutterapp/testapp/Login.dart';
 import 'package:flutterapp/testapp/stacked_icon.dart';
 
@@ -11,7 +12,7 @@ class QuickBee extends StatelessWidget {
       title: 'Quick Bee',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Roboto'),
-      home: MyHomePage(),
+      home: Dashboard()
     );
   }
 }
