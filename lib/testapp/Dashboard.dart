@@ -192,29 +192,377 @@ class MainContent extends StatelessWidget {
                 SizedBox(
                   height: 20,
                 ),
-                Row(
-                  children: <Widget>[
-                    Expanded(
-                      child: Text(
-                        'Popular Trending',
-                        style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.black
+                Padding(
+                  padding: const EdgeInsets.only(top: 10),
+                  child: Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: Text(
+                          'Popular Trending',
+                          style: TextStyle(fontSize: 18, color: Colors.black),
                         ),
                       ),
-                    ),
-                    Expanded(
-                      child: Text(
-                        'View All',
-                        textAlign: TextAlign.right,
-                        style: TextStyle(
-                            fontSize: 18,
-                          color: Color(0xFF2BD093),
+                      Expanded(
+                        child: Text(
+                          'View All',
+                          textAlign: TextAlign.right,
+                          style: TextStyle(
+                            fontSize: 15,
+                            color: Color(0xFF2BD093),
+                          ),
+                        ),
+                      )
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(top: 10),
+                  child: Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: Container(
+                          height: 160,
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(5)),
+                          child: Column(
+                            children: <Widget>[
+                              Container(
+                                height: 100,
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(5),
+                                    image: DecorationImage(
+                                        image: NetworkImage(
+                                            'https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png'),
+                                        fit: BoxFit.cover)),
+                              ),
+                              Text(
+                                'Play Station',
+                                style: TextStyle(
+                                  fontSize: 15,
+                                  color: Colors.black
+                                ),
+                              )
+                            ],
+                          ),
                         ),
                       ),
-                    )
-                  ],
-                )
+                      SizedBox(
+                        width: 5,
+                      ),
+                      Expanded(
+                        child: Container(
+                          height: 140,
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(5)),
+                          child: Column(
+                            children: <Widget>[
+                              Container(
+                                height: 100,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(5),
+                                    image: DecorationImage(
+                                        image: NetworkImage(
+                                            'https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png'),
+                                        fit: BoxFit.cover)),
+                              ),
+                              Text(
+                                'Jewellaery and Watches',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                    fontSize: 15,
+                                    color: Colors.black
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 5,
+                      ),
+                      Expanded(
+                        child: Container(
+                          height: 160,
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(5)),
+                          child: Column(
+                            children: <Widget>[
+                              Container(
+                                height: 100,
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(5),
+                                    image: DecorationImage(
+                                        image: NetworkImage(
+                                            'https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png'),
+                                        fit: BoxFit.cover)),
+                              ),
+                              Text(
+                                'Play Station',
+                                style: TextStyle(
+                                    fontSize: 18,
+                                    color: Colors.black
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+
+                SizedBox(
+                  height: 20,
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(top: 10),
+                  child: Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: Text(
+                          'Popular Trending',
+                          style: TextStyle(fontSize: 18, color: Colors.black),
+                        ),
+                      ),
+                      Expanded(
+                        child: Text(
+                          'View All',
+                          textAlign: TextAlign.right,
+                          style: TextStyle(
+                            fontSize: 15,
+                            color: Color(0xFF2BD093),
+                          ),
+                        ),
+                      )
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(top: 10),
+                  child: Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: Container(
+                          height: 160,
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(5)),
+                          child: Column(
+                            children: <Widget>[
+                              Container(
+                                height: 100,
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(5),
+                                    image: DecorationImage(
+                                        image: NetworkImage(
+                                            'https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png'),
+                                        fit: BoxFit.cover)),
+                              ),
+                              Text(
+                                'Play Station',
+                                style: TextStyle(
+                                    fontSize: 15,
+                                    color: Colors.black
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 5,
+                      ),
+                      Expanded(
+                        child: Container(
+                          height: 140,
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(5)),
+                          child: Column(
+                            children: <Widget>[
+                              Container(
+                                height: 100,
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(5),
+                                    image: DecorationImage(
+                                        image: NetworkImage(
+                                            'https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png'),
+                                        fit: BoxFit.cover)),
+                              ),
+                              Text(
+                                'Jewellaery and Watches',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                    fontSize: 15,
+                                    color: Colors.black
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 5,
+                      ),
+                      Expanded(
+                        child: Container(
+                          height: 160,
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(5)),
+                          child: Column(
+                            children: <Widget>[
+                              Container(
+                                height: 100,
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(5),
+                                    image: DecorationImage(
+                                        image: NetworkImage(
+                                            'https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png'),
+                                        fit: BoxFit.cover)),
+                              ),
+                              Text(
+                                'Play Station',
+                                style: TextStyle(
+                                    fontSize: 18,
+                                    color: Colors.black
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+
+                SizedBox(
+                  height: 20,
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(top: 10),
+                  child: Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: Text(
+                          'Popular Trending',
+                          style: TextStyle(fontSize: 18, color: Colors.black),
+                        ),
+                      ),
+                      Expanded(
+                        child: Text(
+                          'View All',
+                          textAlign: TextAlign.right,
+                          style: TextStyle(
+                            fontSize: 15,
+                            color: Color(0xFF2BD093),
+                          ),
+                        ),
+                      )
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(top: 10),
+                  child: Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: Container(
+                          height: 160,
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(5)),
+                          child: Column(
+                            children: <Widget>[
+                              Container(
+                                height: 100,
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(5),
+                                    image: DecorationImage(
+                                        image: NetworkImage(
+                                            'https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png'),
+                                        fit: BoxFit.cover)),
+                              ),
+                              Text(
+                                'Play Station',
+                                style: TextStyle(
+                                    fontSize: 15,
+                                    color: Colors.black
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 5,
+                      ),
+                      Expanded(
+                        child: Container(
+                          height: 140,
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(5)),
+                          child: Column(
+                            children: <Widget>[
+                              Container(
+                                height: 100,
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(5),
+                                    image: DecorationImage(
+                                        image: NetworkImage(
+                                            'https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png'),
+                                        fit: BoxFit.cover)),
+                              ),
+                              Text(
+                                'Jewellaery and Watches',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                    fontSize: 15,
+                                    color: Colors.black
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 5,
+                      ),
+                      Expanded(
+                        child: Container(
+                          height: 160,
+                          decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(5)),
+                          child: Column(
+                            children: <Widget>[
+                              Container(
+                                height: 100,
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(5),
+                                    image: DecorationImage(
+                                        image: NetworkImage(
+                                            'https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png'),
+                                        fit: BoxFit.cover)),
+                              ),
+                              Text(
+                                'Play Station',
+                                style: TextStyle(
+                                    fontSize: 18,
+                                    color: Colors.black
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
